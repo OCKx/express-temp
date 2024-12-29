@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Dist directory
+dist/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Optional: Ignore any OS-specific files
+.DS_Store
+
+# Ignore build artifacts
+build/
