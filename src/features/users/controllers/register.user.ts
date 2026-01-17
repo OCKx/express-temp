@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import prisma from "../../../../prisma/prisma";
 import wrapper from "../../../middlewares/asyncWrapper";
 import CustomError from "../../../middlewares/customError";
-import generateJWT from "../../../utilss/generateJWT";
+import generateJWT from "../../../utils/generateJWT";
 
 const registerUser = wrapper(async (req:Request, res:Response, next: NextFunction) => {
     const { name, email } = req.body;
